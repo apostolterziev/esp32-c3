@@ -105,8 +105,8 @@ void start_network(void)
     ESP_ERROR_CHECK(esp_wifi_set_storage(WIFI_STORAGE_RAM));
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = "nazavoq",
-            .password = "b54cd123$%^",
+            .ssid = "",
+            .password = "",
         },
     };
     ESP_LOGI(TAG, "Connecting to %s...", wifi_config.sta.ssid);
